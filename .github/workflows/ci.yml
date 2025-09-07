@@ -20,4 +20,3 @@ jobs:
         run: |
         docker login -u angelad25 -p ${{secrets.REGISTRY_PASS}}
         docker push angelad25/my-dear-portfolio
-          
